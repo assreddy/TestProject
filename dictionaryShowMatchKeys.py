@@ -46,8 +46,6 @@ print("Elements which are mismatch Keys: ", compDictionary(d3, d4))
 """
 OUTPUT
 #--------------
-Unequal number of elements in both dictionaries.
-{'K30', 'K10', 'k20', 'k2', 'k3'}
-Equal number of elements in both dictionaries.
-{'kk10', 'kK2'}
+Elements which are mismatch Keys:  {'k20', 'K10', 'K30', 'k2', 'k3'}
+Elements which are mismatch Keys:  {'k3', 'k20', 'K10', 'kk10', 'kK2', 'k2'}
 """
