@@ -30,7 +30,7 @@ def valuesEqual(dict_vales1, dict_values2):
   return [set(matched), set(not_matched)]
 
 def compDictionary(dict1, dict2):
-  assert (len(dict2) != 0) & (len(dict1) != 0), "Dictionary should not be empty."
+  assert (len(dict2) != 0) and (len(dict1) != 0), "Dictionary should not be empty."
   diff_unequal = dictFindExtraElements(dict1,dict2)
   matched_values = valuesEqual(dict1, dict2)
   if len(diff_unequal[0]) > len(diff_unequal[1]):
